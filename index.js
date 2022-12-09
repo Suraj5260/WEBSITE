@@ -147,4 +147,21 @@
 //     document.getElementById("count").innerHTML = num;
 // }
 
+// Useful sting properties and methods
 
+    // let userName = "Suraj Telrandhe";
+    // let phoneNumber = "123-456-7890"
+
+    // console.log(username.length);
+    // console.log(username.charAt(6));
+    // console.log(username.indexOf("r"));
+    // console.log(username.lastIndexOf("r"));
+
+    // userName = userName.toUpperCase(); 
+    // console.log(userName);s
+    // userName = userName.toLowerCase(); 
+    // console.log(userName);
+
+    // phoneNumber=phoneNumber.replaceAll("-","");
+
+    // console.log(phoneNumber);
