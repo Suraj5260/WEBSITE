@@ -165,3 +165,49 @@
     // phoneNumber=phoneNumber.replaceAll("-","");
 
     // console.log(phoneNumber);
+
+
+    //// Slice Function
+    // slice () extracts a section of a string and returns it as  anew string , without modifying the original string.
+
+    // let Name = "Suraj Telrandhe";
+    // let FirstName = Name.slice(0,Name.indexOf(" "));
+    // let LastName = Name.slice(Name.indexOf(" ") + 1);
+
+    // console.log(FirstName);
+    // console.log(LastName);
+
+    //// Method chaining = calling one method after another in one continuous line of code.
+
+    // let username = "suraj";
+
+    // let letter = username.charAt(0).toUpperCase().trim() + username.slice(1);
+    // console.log(letter);
+
+    //// if statement = It is same as in CPP.
+
+    //// JavaScript checked property
+        //worked for checkBox and also for radio boxes.
+    // Html code
+    // <label for="myCheckBox">Show Suraj</label><br>
+    // <input type="checkbox" id="myCheckBox"><br>
+    // <button id="myButton">Submit</button>
+
+    // document.getElementById("myButton").onclick = function() {
+
+    //     const image = document.getElementById("myCheckBox");
+        
+    //     if(image.checked) {
+
+    //         console.log("yes")
+
+    //     }
+    //     else{
+    //         console.log("no");
+    //     }
+    // }
+    //// Switch statements are same as in CPP
+
+    //// = assignment operator
+    //// == comparison operator 
+    //// === strict equality operator 
