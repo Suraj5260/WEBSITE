@@ -1,3 +1,14 @@
+
+//// variable scope = where a variable is accessible 
+
+// let = variables are limited to block scope{}
+// var = variables are limited to a function(){}
+
+//// global variable = is declared outside any function
+// (if global, var will CHANGE browser's window properties)
+
+
+
 // console.log("I like my Biryani!");
 // console.log("It's really great!");
 
@@ -209,5 +220,69 @@
     //// Switch statements are same as in CPP
 
     //// = assignment operator
-    //// == comparison operator 
-    //// === strict equality operator 
+    //// == comparison operator (checks two values disregard of data type 3.14 == "3.14" is correct.)
+    //// === strict equality operator (checks two values as well as data type 3.14 === "3.14" is incorrect.)
+
+    //// While loop
+
+    // let userName = "";
+
+    // while(userName == "" || userName == null){
+    //     userName = window.prompt("Enter your name");
+    // }
+    // console.log("Hello " + userName);
+
+    ////Functions also work same as it does in CPP.
+
+    // function myName(){
+    //     console.log("Suraj Kishor Telrandhe");
+    // }
+    
+    // myName();
+    // myName();
+    // myName();
+
+    //// ternary operator = shortcut for an 'if/else statement'.
+    // Takes 3 operands 
+    // 1. a condition with ?
+    // 2. expression if True :
+    // 3. expression if False
+
+    // condition ? exprIfTrue : exprIfFalse
+
+    // let adult = checkAge(21);
+    // console.log(adult);
+
+    // function checkAge(age){
+    //     return age >= 18 ? "Adult" : "Child";
+    // }
+
+    //// template literals = declared with (`)
+    //                       instead of double or single quotes 
+    //                       they allows embadded variable and expressions
+
+    let userName = "Bro";
+    let items = 3;
+    let total = 75;
+
+    //noobs be like ⬇
+    // console.log("Hello ", userName);
+    // console.log("You have ", items, " items in your cart.");
+    // console.log("and your total is ", total);
+
+    //by using  template literals
+    // console.log(`hello ${userName}`);
+    // console.log(`You have ${items} items in your cart.`);
+    // console.log(`and your total is ${total}`);
+
+// we can also do 
+
+// let text = 
+// `hello ${userName} <br>
+// You have ${items} items in your cart.<br>
+// and your total is ${total}<br>`;
+// // console.log(text)
+
+// <label id="textLable"></label>
+
+// document.getElementById("textLable").innerHTML = text; 
